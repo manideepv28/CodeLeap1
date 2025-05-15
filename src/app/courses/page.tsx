@@ -10,6 +10,7 @@ import { Search, ListFilter } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Skeleton } from '@/components/ui/skeleton';
+import { Card, CardHeader, CardContent } from '@/components/ui/card';
 
 export default function CoursesPage() {
   const [courses, setCourses] = useState<Course[]>([]);
